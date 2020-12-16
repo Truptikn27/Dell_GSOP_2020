@@ -7,3 +7,5 @@ Can also take self assessment by answering set of questions and if the symptoms 
 
 People can also get a online report and consult doctor.
 
+#Usecase
+![usecase](https://user-images.githubusercontent.com/73877021/102375349-6a1a4080-3fe8-11eb-9a5b-f169cd64c0a7.png)
