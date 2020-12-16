@@ -1,0 +1,45 @@
+create table register(ID int(11) not null AUTO_INCREMENT,
+uname varchar(25) NOT NULL,
+lname varchar(15) NOT NULL,
+dob date NOT NULL,
+gender varchar(10) NOT NULL,
+phno varchar(10) NOT NULL,
+email varchar(25),
+bgroup varchar(5) NOT NULL,
+Address varchar(50) NOT NULL,
+city varchar(20) NOT NULL,
+state varchar(20) NOT NULL,
+pincode int NOT NULL,
+pswd varchar(20) NOT NULL,
+PRIMARY KEY(ID));
+
+create table symptoms(ID int(11) not null,
+symptoms varchar(50) not null,
+disease varchar(50) not null,
+travel varchar(50) not null,
+apply varchar(500) not null,
+area varchar(20) not null,
+constraint fk foreign key(ID) references register(ID));
+
+create table lab(slno int AUTO INCREMENT not null,
+ID int(11) not null,
+uname varchar(25) NOT NULL,
+lname varchar(15) NOT NULL,
+gender varchar(10) NOT NULL,
+phno varchar(10) NOT NULL,
+email varchar(25),
+bgroup varchar(5) NOT NULL,
+result varchar(200) NOT NULL,
+constraint pk1 primary key(slno),
+constraint fk1 foreign key(ID) references register(ID));
+
+create table address(city varchar(25) NOT NULL,
+state varchar(25) NOT NULL,
+pincode varchar(10) NOT NULL,
+hospaddr varchar(500) NOT NULL,
+hospname varchar(100) NOT NULL,
+phno varchar(20) NOT NULL);
+
+create table admin(uname varchar(10) NOT NULL,
+pswd varchar(20) NOT NULL);
+

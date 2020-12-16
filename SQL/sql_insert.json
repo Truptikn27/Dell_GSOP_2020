@@ -1,0 +1,114 @@
+Register table insert
+[{"ID":1, "uname":"Ram", "lname":"Kumar", "dob":"1989-06-20", "gender":"male", "phno":"8897632190", "email":"ram123@gmail.com", "bgroup":"AB+", "address":"SS puram BC Circle", "city":"Tumkur", "state":"Karnataka", "pincode":572103, "pswd":"1234"},
+{"ID":2, "uname":"Sowmya", "lname":"Shree", "dob":"1993-08-25", "gender":"female", "phno":"9987634512", "email":"sow456@gmail.com", "bgroup":"B-", "address":"SIT BH road", "city":"Tumkur", "state":"Karnataka", "pincode":572101, "pswd":"4567"},
+{"ID":3, "uname":"Trupti", "lname":"K N", "dob":"1997-03-27", "gender":"female", "phno":"6547891235", "email":"tru27@gmail.com", "bgroup":"O+", "address":"A M palya Siragate, Tumkur", "city":"Tumkur", "state":"Karnataka", "pincode":572106, "pswd":"1234"},
+{"ID":4, "uname":"Suresh", "lname":"Sham", "dob":"1980-12-10", "gender":"male", "phno":"8475694128", "email":"sham123@gmail.com", "bgroup":"B+", "address":"Batawadi Tumkur", "city":"Tumkur", "state":"Karnataka", "pincode":572101, "pswd":"1234"}]
+
+Symptoms table insert
+[{"ID":1, "symptoms":"Fever", "disease":"Diabetes", "travel":"Yes", "apply":"None of the above", "area":"Yes"},
+{"ID":2, "symptoms":"Fever", "disease":"Diabetes", "travel":"No", "apply":"None of the above", "area":"Yes"},
+{"ID":3, "symptoms":"None of the above", "disease":"None of the above", "travel":"No", "apply":"None of the above", "area":"No"},
+{"ID":4, "symptoms":"Fever", "disease":"Hypertension", "travel":"No", "apply":"I have recently interacted or lived with someone who has tested positive for COVID-19", "area":"Yes"}]
+
+Lab table insert
+[{"ID":1, "uname":"Ram Kumar", "gender":"male", "phno":"8897632190", "email":"ram123@gmail.com", "bgroup":"AB+", "result":"You are exposed for covid, please contact doctor immediately."},
+{"ID":3, "uname":"Trupti K N", "gender":"female", "phno":"6547891235", "email":"tru27@gmail.com", "bgroup":"O+", "result":"Congratulations...!! Test is negative, be safe at home"},
+{"ID":2, "uname":"Sowmya Shree", "gender":"female", "phno":"9987634512", "email":"sow456@gmail.com", "bgroup":"B-", "result":"You are exposed for covid, please contact doctor immediately."},
+{"ID":4, "uname":"Suresh", "gender":"male", "phno":"8475694128", "email":"sham123@gmail.com", "bgroup":"B+", "result":"You are exposed to Covid, the result is POSITIVE please contact the doctor soon."}]
+
+Admin insert
+insert into admin values("admin","admin);
+
+Address insert
+insert into address values("Bangalore","Karnataka","560010","#2366/27, 12th Main, 2nd Stage A Block, Rajajinagara 3rd Block, Bengaluru - 560010","ESIC Rajajinagara-Public","080-23013327");
+insert into address values("Bangalore","Karnataka","560029","Someshwaranagar 1st Main, DRC Post, Near NIMHANS, Bengaluru","SDS TRC and Rajiv Gnadhi Institute of Chest Diseases-Public","080-26088682");
+insert into address values("Bangalore","Karnataka","560029","1st Block, Siddapura, Jayanagar,Bengaluru, Karnataka 560029","Indira Gandhi institute of Child Health-Public","080-22443143");
+insert into address values("Bangalore","Karnataka","560074","Kengeri, Bengaluru","RajaRajeshwari Medical College-Private","080-28437444");
+insert into address values("Bangalore","Karnataka","560001","BOWRING LADY CURZON, Lady Curzon road, Shivajinagara, Bengaluru - 560001","Bowring Medical College-Public","9036304558");
+insert into address values("Banaglore","Karnataka","560002","BMCRI Fort Road near City Market, New Taragupet, Bengaluru - 560002","Victoria Hospital-Public","080-26701150");
+insert into address values("Bangalore urban","Karnataka","560060","Community Health Center Kaggalipura Kanakapura main Road Bangalore South Taluk Bangalore Urban District Bangalore","Government CHC","08392-242387");
+insert into address values("Bangalore","Karnataka","560034","St. Johns  Institute of Medical Sciences. Sarjapur Main Rd, John Nagar, Koramangala, Bengaluru, Karnataka","St. Johns  Institute of Medical Sciences-Private","080-22065136");
+insert into address values("Bangalore","Karnataka","560055","26/4, Brigade Gateway West, 1st Main Rd, near Metro, Malleshwaram, Bengaluru, Karnataka ","Columbia Asia Hospitals-Private","08067416479");
+insert into address values("Bangalore urban","Karnataka","560068","84 Hosur Rd Zuzuvadi Madiwala 1st Stage BTM Layout Bengaluru","Treebo Trend Hotel Sahara Suites-Private","080224759541");
+
+insert into address values("Belagavi","Karnataka","591201","Near  Basaveshwar Circle","	TH Chikkodi-Public","08399240222");
+insert into address values("Belagavi","Karnataka","590001","near UK 27, Belagavi","Vijaya Hospital  Belgaum-Private","0831 2432999");
+insert into address values("Belagavi","Karnataka","590016","Nehru Nagar Belagavi","KLE Hospital Belgaum-Private","0831 2473777");
+insert into address values("Belagavi","Karnataka","591302","Near Bus Stop ","TH Khanapur-Public","08333 265448");
+insert into address values("Belagavi","Karnataka","591309","court circle","TH Hukkeri-Public","08331-224288");
+
+insert into address values("Ballari","Karnataka","583104","Cantonment Area","VIMS-Public Medical College","08392-24238");
+insert into address values("Ballari","Karnataka","583101","TH Hospet","TH Hospet-Public","08392-242387");
+insert into address values("Ballari","Karnataka","583102","Modaliar DH Rajkumar Road Sangam Circle","District Hospital-Public","08392-274254");
+insert into address values("Ballari","Karnataka","583103","TH Sandur","	TH Sandur-Public","08398280266");
+
+insert into address values("Bidar","Karnataka","585328","Bhalki","TGH Bhalki-Public","08336 -223735");
+insert into address values("Bidar","Karnataka","585401","BRIMS Udgir Road, Bidar","BRIMS-Public","0848228356");
+insert into address values("Bidar","Karnataka","585326","Aurad","TGH Aurad-Public","08481-250349");
+
+insert into address values("Chikkamagalur","Karnataka","577126","Near Koppa Town Panchayath","GH Koppa-Public","080654789");
+insert into address values("Chikkamagalur","Karnataka","577134","Near Karnataka bank","TH N.R.Pura-Public","080654789");
+insert into address values("Chikkamagalur","Karnataka","577548","Near Mescom Sub Division","GH Kadur-Public","080654789");
+insert into address values("Chikkamagalur","Karnataka","577132","Near BGS School","MGM GH Mudigere-Public","080654789");
+insert into address values("Chikkamagalur","Karnataka","577139","Near Sharadha Dhanvantari Hospital","GH Sringeri-Public","080654789");
+
+insert into address values("Chitradurga","Karnataka","577522","TH Challakere","GH Challakere-Public","08022445618");
+insert into address values("Chitradurga","Karnataka","577526","TH Holalkere","TH Holalkere-Public","8195222250");
+insert into address values("Chitradurga","Karnataka","577501","Basaveshwara Medical College & Research Centre Hospital, Chitradurga","Basaveshwara Hospital-Private","8874159621");
+insert into address values("Chitradurga","Karnataka","577598","GH Hiriyuru","GH Hiriyuru-Public","8198229228");
+insert into address values("Chitradurga","Karnataka","577535","GH Molakalmuru","GH Molakalmuru-Public","8199230364");
+
+insert into address values("Davangere","Karnataka","577001","Jnanashanakra, NH-4, Bypass Road,Davangere","S S Institute of Medical Sciences  & Research  Centre-Private","08192-266000");
+insert into address values("Davangere","Karnataka","577002","NO:308/7, PAVILIAN ROAD, P J EXTENSION, DAVANAGERE","SOUKHYADA HOSPITAL-Private","08192 225623");
+insert into address values("Davangere","Karnataka","577004","Nittuvalli, Davanagere","E S I Hospital-Public","08189228044");
+insert into address values("Davangere","Karnataka","577003","Davanagere","Bapuji Hospital-Private","08192-253850");
+
+insert into address values("Dharwad","Karnataka","580009","Manjushree Nagar, Sattur, Dharwad","SDM College of Medical Sciences & Hospital-Private","0836-2477006");
+insert into address values("Dharwad","Karnataka","580008","Near K C Park Dharwad","Tavarageri Hospital Dharwad-Private","08024587415");
+insert into address values("Dharwad","Karnataka","581204","Kalaghatagi","TH Kalaghatagi-Public","08362326000");
+insert into address values("Dharwad","Karnataka","582208","Navalagund","TH Navalagund","08362326000");
+
+insert into address values("Hubli","Karnataka","580021","Central Hospital South western railway Hubli","Central Railway Hospital Hubli-Public","0836-2741277");
+insert into address values("Hubli","Karnataka","580030","M.T.Sagar Near Shreyanagar Unkal Heggeri Road Opposite KSRTC Depo Gokul Road Hubballi","Tatwadarsha Hospital Hubballi-Private","0836-2234465");
+insert into address values("Hubli","Karnataka","580030","Gokul Road Kallur Layout Hubballi","Suchirayu Hospital Hubballi-Private","0836-2239000");
+
+insert into address values("Hassan","Karnataka","573134","TH Sakaleshpur","TH Sakaleshpur-Public","081654125");
+insert into address values("Hassan","Karnataka","573201","HIMS","HIMS-Public Medical College","8172250330");
+insert into address values("Hassan","Karnataka","573136","TH Arasikere","TH Arasikere","081654127");
+
+insert into address values("Kalaburgi","Karnataka","585105","Sedam Road Kalabiragi","GIMS Hospital Klaburagi-Public","08066541238");
+insert into address values("Kalaburgi","Karnataka","585310","THO office Campus Jewaragi","Jewaragi  GH-Public","08475-273002");
+insert into address values("Kalaburgi","Karnataka","585222","TH SEDAM","TH SEDAM-Public","08442-236198");
+insert into address values("Kalaburgi","Karnataka","585301","Near Bus stand Afzlapur","Afzlapur GH-Public","08472-278644");
+
+insert into address values("Kodagu","Karnataka","571201","Near Toll Gate, Kodagu","KIMS, Kodagu-Public","08272-298220");
+insert into address values("Kodagu","Karnataka","571234","BM Road Kushalnagara","Prime Hospital, Kushalnagar-Privte","087629 59838");
+
+insert into address values("Mandya","Karnataka","571401","Mysore Road, Mandya","MIMS-Public","080-32224040");
+insert into address values("Mandya","Karnataka","571433","GH Malavalli, Mandya District","TH Nagamangala-Public","08234-286006");
+insert into address values("Mandya","Karnataka","571434","sub divisional Hospital, pandavapura","TH Pandavapura-Public","8232232030");
+
+insert into address values("Dakshina Kannada","Karnataka","575001","Wenlock DH","Wenlock Hospital-Public","08242413201");
+insert into address values("Mangalore","Karnataka","575002","KADRI MANGALORE","ESI","082552 33332");
+insert into address values("Mangalore","Karnataka","575001","JYOTHI MANGALORE","KMC Jyothi-Private","0824 2445858");
+insert into address values("Dakshina Kannada","Karnataka","575001","Kasturba Medical College and Hospital, Attavar Mangalore - 575001","Kasturba Medical College and Hospital, Attavar","0824 - 2445858");
+
+insert into address values("Mysore","Karnataka","570016","Ed Hospital Peremises, Back of HFWTC Metgalli, Mysore","District Hospital-Public","0821-2517555");
+insert into address values("Mysore","Karnataka","570020","Divisonal Railway Hospital krs Road,Yadavgiri, Mysore","Railways Hospital-Public","0821-21457895");
+insert into address values("Mysore","Karnataka","570004","M.G. Road","JSS Hospital-Private","0821-2335555");
+insert into address values("Mysore","Karnataka","570001","Mysuru","CSI Holdworth Memorial Hospital-Private","0821-4266370-73");
+
+insert into address values("Shivamogga","Karnataka","577201","Sagar Road, Shimogga ","Mc Gann Hospital-Public Medical College ","08182269523");
+insert into address values("Shivamogga","Karnataka","577427","SHIKARIPURA","TH,SHIKARIPURA-Public","080-27522485");
+insert into address values("Shivamogga","Karnataka","577401","SAGARA","TH, SAGARA-Public","08187-222412");
+insert into address values("Shivamogga","Karnataka","577201","#660 KUVEMPU ROAD, KUVEMPU ROAD, SHIMOGA.","NANJAPPA HOSPITAL-Private","08182-221003");
+
+insert into address values("Tumakuru","Karnataka","572101","BH Road , Tumkur","SIDDAGANGA HOSPITAL PVT LIMITED TUMKUR-Private","0816-2252805");
+insert into address values("Tumakuru","Karnataka","572103","Lingapura, Tumkur","Shreedevi Institute of Medical Sciences and Hospital-Private","0816-2212192");
+insert into address values("Tumakuru","Karnataka","572102","Tumkur","District Hospital-Public","0816-2257404");
+insert into address values("Tumakuru","Karnataka","572130","Kunigal Taluk","GH Kunigal-Public","8184272216");
+insert into address values("Tumakuru","Karnataka","572137","Sira Taluk","GH Sira-Public","08132-220450");
+
+insert into address values("Udupi","Karnataka","576112","HEBRI, KARKALA TALUK","SRI RAGHAVENDRA MATERNITY & GENERAL HOSPITAL-Private","9343282347");
+insert into address values("Udupi","Karnataka","576101","Court Road, opp. Taluk Office, Brahmagiri, Udupi, Karnataka","Dr. TMA Pai Hospital, Udupi-Private","0820-2526501");
+insert into address values("Udupi","Karnataka","576102","Ajjarkadu, Udupi ","DH Udupi-Public","08133-267211");
